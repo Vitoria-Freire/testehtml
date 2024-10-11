@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    /* background-color: rgb(60, 94, 92); */
+    /* width: 100%; */
+}
+.div1{
+    /* background-color: rgb(60, 94, 92); */
+    margin-left: 150px;
+    margin-top: 75px;
+    border-left: 2px solid green;
+}
+.img1 {
+    width: 100px;
+    /* margin-top: 75px; */
+    margin-left: 55px;
+}
+.form{
+    background-color: rgba(0, 0, 0, 0.3);
+    display: block;
+    float: right;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
