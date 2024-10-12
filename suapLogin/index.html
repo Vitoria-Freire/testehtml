@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 
     <title>SUAP</title>
 </head>
@@ -11,23 +14,25 @@
     <div class="div1">
         <img class="img1" src="./imagens/logo-suap.svg" alt="">
 
-        <p>Um software desenvolvido por uma instituição pública para instituições públicas.</p>
+        <p class="frase">Um software desenvolvido por uma <br> instituição pública para instituições <br>
+            públicas.</p>
     
         <img class="img2" src="./imagens/logo-login.svg" alt="">
-    
-        <div class="form">
-            <p>Login</p>
-            <p>Acesse ao Suap IFRN:</p>
-            <form action="">
-                <label for="user">Usuário:</label>
-                <input type="text" nome="user">
-                <label for="senha">Senha:</label>
-                <input type="password" name="senha" id="">
-                <button type="submit">Acessar</button>
-            </form>
-            <a href="">
-                <p>Esqueceu ou deseja alterar sua senha?</p>
-            </a>
+        <div class="caixa">
+            <div class="form">
+                <p class="Login">Login</p>
+                <p class="ifrn">Acesse ao Suap IFRN:</p>
+                <form action="">
+                    <label for="user">Usuário:</label>
+                    <input type="text" nome="user">
+                    <label class="senha" for="senha">Senha:</label>
+                    <input class="dois" type="password" name="senha" id="">
+                    <button type="submit"> Acessar </button>
+                </form>
+                <a href="./esqueceusenha.html">
+                    <p>Esqueceu ou deseja alterar sua senha?</p>
+                </a>
+            </div>
         </div>
     </div>
 </body>
