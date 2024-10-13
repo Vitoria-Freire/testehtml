@@ -3,8 +3,8 @@
     padding: 0;
 }
 body {
-    background-color: rgb(60, 94, 92);
-    /* background-color: #305E5C; */
+    /* background-color: rgb(60, 94, 92); */
+    background: linear-gradient(135deg, #366D6A, #264543);
     width: 100%;
     display: block;
 }
@@ -27,19 +27,19 @@ body {
 p {
     font-family: "Open Sans", sans-serif;
     color: white;
-    /* margin-top: 25px; */
+    /* margin-top: 25px;; */
     font-weight: 800;
 }
 .frase {
     font-family: "Open Sans", sans-serif;
     font-weight: 300;
-    font-style: normal;
+    /* font-style: normal;;  */
     margin-top: 31px;
     font-size: 156%;
     margin-left: 50px;
 }
 .caixa {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.16);
     display: flex; 
     float: right;
     margin-right: 150px;
@@ -57,7 +57,8 @@ a{
     text-decoration: none;
 }
 a p{
-    font-weight: 100;
+    font-weight: 400;
+    font-size: small;
     float: right;
     margin-top: 10px;
 }
@@ -87,19 +88,45 @@ label {
     margin-top: 15px;
     margin-bottom: 3px;
 }
+.password-container {
+    position: relative;
+    width: 100%;
+    max-width: 370px;
+}
 .senha {
     margin-top: 13px;
     margin-bottom: 2px;
 }
 .dois {
     width: 367px;
-    height: 46.5px;
+    /* height: 46.5px;;  */
+    padding-right: 40px;
+}
+.eye-icon {
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    background: url('https://cdn-icons-png.flaticon.com/512/709/709724.png') no-repeat center;
+    background-size: cover;
 }
 input {
     width: 370px;
     height: 46px;
     border-radius: 5px;
     border: none;
+    box-sizing: border-box;
+    padding: 2px 7.3px;
+    font-size: 16px;
+    line-height: 5px;
+    letter-spacing: -0.125px;
+}
+input:focus {
+    border: 3px solid #01FD94;
+    outline: none;
+    /* padding: 2px 5px;;  */
 }
 button {
     display: block;
@@ -110,8 +137,8 @@ button {
     background-color: #01FD94;
     color: #18352d;
     border: none;
-    font-size: 16px;
-    letter-spacing: -1.2px;
+    font-size: 15px;
+    letter-spacing: -0.7px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 5;
+    /* font-weight: 1;; */
 }
