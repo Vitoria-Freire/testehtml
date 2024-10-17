@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    <link rel="icon" href="./imagens/SUAP-removebg-preview.png">
+    <link class="icon" rel="icon" href="./icone/icone.png">
 
     <title>- SUAP: Sistema Unificado de Administração Pública</title>
 </head>
@@ -21,22 +21,23 @@
         <img class="img2" src="./imagens/logo-login.svg" alt="">
         <div class="caixa">
             <div class="form">
-                <p class="Login">Login</p>
-                <p class="ifrn">Acesse ao Suap IFRN:</p>
-                <form action="">
-                    <label for="user">Usuário:</label>
-                    <input type="text" name="user">
-                    <label class="senha" for="senha">Senha:</label>
-                    <div class="password-container">
-                        <input class="dois" type="password" name="senha" id="password">
-                        <span class="eye-icon"></span>
-                    </div>
-                    <button type="submit"> Acessar </button>
-                </form>
-                <a href="./esqueceusenha.html">
-                    <p>Esqueceu ou deseja alterar sua senha?</p>
-                </a>
+                <div class="textForm">
+                    <p class="Login">Login</p>
+                    <p class="ifrn">Acesse ao Suap IFRN:</p>
+                    <form action="">
+                        <label for="user">Usuário:</label>
+                        <input type="text" name="user">
+                        <label class="senha" for="senha">Senha:</label>
+                        <div class="password-container">
+                            <input class="dois" type="password" name="senha" id="password">
+                            <span class="eye-icon"></span>
+                        </div>
+                        <button type="submit"> Acessar </button>
+                    </form>
+                    <a class="esqueceu" href="./esqueceusenha.html">Esqueceu ou deseja alterar sua senha?</a>
+                </div>
             </div>
+            <button class="gov">Entrar com <span><img class="govbr" src="./imagens/imgov.png" alt="45"></span></button>
         </div>
     </div>
 </body>
