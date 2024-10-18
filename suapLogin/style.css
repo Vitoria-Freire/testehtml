@@ -1,6 +1,9 @@
 :root {
     --font : "Open Sans", sans-serif;
 }
+::selection {
+    background-color: #347B3E;
+}
 .icon{
     width: 100%;
 }
@@ -9,7 +12,7 @@
     padding: 0;
 }
 body {
-    background: linear-gradient(135deg, #366D6A, #264543);
+    background: linear-gradient(135deg, #376F6C, #254241);
     width: 100%;
     display: block;
 }
@@ -27,7 +30,7 @@ body {
     width: 541px;
     margin-left: 50px;
     margin-top: 49px;
-    padding-bottom: 74px;
+    margin-bottom: 74px;
 }
 p {
     font-family: var(--font);
@@ -63,25 +66,18 @@ a:hover {
     text-decoration: underline;
     text-decoration-color: white;
 }
-/* a p{
-    font-weight: 450;
-    font-size: small;
-    float: right;
-    margin-top: 10px;
-} */
 .esqueceu {
     font-size: small;
     float: right;
-    margin-top: 10px;
-    /* font-weight: 400; */
+    margin-top: 10.5px;
     font-family: var(--font);
     color: white;
     padding-bottom: 5px;
 }
 .form {
     width: 370px;
-    height: 377px;
-    margin-top: -8px;
+    height: 378px;
+    margin-top: -10px;
     border-bottom: 2px solid white;
 }
 .textForm {
@@ -124,10 +120,10 @@ label {
 .eye-icon {
     position: absolute;
     right: 14px;
-    top: 50%;
+    top: 51%;
     transform: translateY(-50%);
     width: 16px;
-    height: 16px;
+    height: 16.6px;
     background: url('https://cdn-icons-png.flaticon.com/512/709/709724.png') no-repeat center;
     background-size: cover;
 }
@@ -150,7 +146,7 @@ button {
     display: block;
     margin-top: 20px;
     width: 370px;
-    height: 44.5px;
+    height: 45px;
     border-radius: 25px;
     background-color: #01FD94;
     color: #18352d;
@@ -165,14 +161,15 @@ button {
     background-color: #f3f3f3;
     color: #1351B4;
     width: 182px;
-    margin-top: 30px;
-    height: 41px;
+    margin-top: 28px;
+    height: 40px;
     border-radius: 20px;
-    padding: 10px 15px;
+    padding: 10px 16px;
+    padding-top: 12px;
     display: inline-flex;
     align-items: center;
     font-family: var(--font);
-    font-size: 16.5px;
+    font-size: 16.4px;
     font-weight: 600;
     cursor: pointer;
     padding-right: 50px;
@@ -183,15 +180,10 @@ button {
 }
 .govbr {
     position: absolute;
-    /* right: 34px; */
-    /* top: 50%; */
-    /* transform: translateY(-50%); */
-    top: 78.1%;
-    left: 300px;
-    width: 60px;
-    height: 22px;
-    /* background: url('./imagens/gov.png') no-repeat center; */
-    /* background-size: 20%; */
+    top: 78.5%;
+    left: 301px;
+    width: 61.5px;
+    height: 22.5px;
 }
 /* input[type="text"] {
     width: 370px;
@@ -202,14 +194,3 @@ input[type='password'] {
     height: 46px;
     margin-top: 0.5px;
 }
-/* .gov button {
-    border-radius: 50px;
-    padding: 10px 20px;
-    display:inline-flex;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    font-weight: bold;
-    color: #333;
-    cursor: pointer;
-} */
