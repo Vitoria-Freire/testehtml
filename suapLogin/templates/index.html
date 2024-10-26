@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link class="icon" rel="icon" href="../static/icone/image.png" >
+
+    <title>- SUAP: Sistema Unificado de Administração Pública</title>
+</head>
+<body>
+    <div class="div1">
+        <img class="img1" src="../static/imagens/logo-suap.svg" alt="">
+
+        <p class="frase">Um software desenvolvido por uma <br> instituição pública para instituições <br>
+            públicas.</p>
+    
+        <img class="img2" src="../static/imagens/logo-login.svg" alt="">
+        <div class="caixa">
+            <div class="form">
+                <div class="textForm">
+                    <p class="Login">Login</p>
+                    <p class="ifrn">Acesse ao Suap IFRN:</p>
+                    <form action="/acessar">
+                        <label for="user">Usuário:</label>
+                        <input type="text" name="user" autofocus>
+                        <label class="senha" for="senha">Senha:</label>
+                        <div class="password-container">
+                            <input class="dois" type="password" name="senha" id="password">
+                            <span class="eye-icon"></span>
+                        </div>
+                        <button type="submit"> Acessar </button>
+                    </form>
+                    <a class="esqueceu" href="./esqueceusenha.html">Esqueceu ou deseja alterar sua senha?</a>
+                    <!-- <a class="esqueceu" action="/esqueceu">Esqueceu ou deseja alterar sua senha?</a> -->
+                </div>
+            </div>
+            <a href="https://sso.acesso.gov.br">
+                <button class="gov">Entrar com <span><img class="govbr" src="../static/imagens/imgov.png" alt="gov.br"></span></button>
+            </a>
+        </div>
+    </div>
+    <!-- <footer>
+        <h2> ^ <br>
+            Serviços essenciais
+        </h2>
+    </footer> -->
+</body>
+</html>
