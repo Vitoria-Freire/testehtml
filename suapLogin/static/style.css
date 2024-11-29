@@ -41,6 +41,8 @@ p {
     font-family: var(--font);
     font-weight: 300;
     margin-top: 31px;
+    /* width: 400px; */
+    /* white-space: normal; */
     font-size: 156%;
     margin-left: 50px;
 }
@@ -196,7 +198,16 @@ input[type='password'] {
 }
 footer {
     background-color: #02F791;
+    font-family: var(--font);
     padding-bottom: 25px;
-    margin-top: 50px;
+    margin-top: 51px;
     text-align: center;
+    height: 250px;
+    border-start-end-radius: 50px;
+    border-start-start-radius: 50px;
+}
+.foot{
+    display: block;
+    margin-left: 720px;
+    padding-top: 32px;
 }

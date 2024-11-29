@@ -12,9 +12,12 @@ def inicio():
 def esqueceu():
     return render_template('esqueceusenha.html')
 
-@app.route('/acessar')
-def acessar():
-    user = request.form['user']
-    password = request.form['senha']
+# @app.route('/acessar', methods = ['POST'])
+# def acessar():
+#     # user = request.form['user']
+#     # password = request.form['senha']
+#     return render_template('inicial.html')
 
-    
+@app.route('/inicial.html')
+def inicial():
+    return render_template('inicial.html')

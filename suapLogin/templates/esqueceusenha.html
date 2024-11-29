@@ -16,7 +16,7 @@
     <header>
         <nav>
             <a href="/suapLogin/templates/index.html">
-                <img class="img1" src="/static/imagens/logo-suap2.svg" alt="">
+                <img class="img1" src="/suapLogin/static/imagens/logo-suap2.svg" alt="">
             </a>
             <a href="https://portal.suap.ifrn.edu.br/">
                 <p>SISTEMA UNIFICADO DE ADMINISTRAÇÃO PÚBLICA</p>
@@ -33,13 +33,35 @@
                 <input type="text" name="usuario" id="usuario">
                 <p>Informe a sua matrícula, caso seja servidor ou aluno, ou o seu CPF.</p>
             </div>
-            <label for="cpf"><i class="fa-solid fa-asterisk fa-2xs"></i> CPF/Passaporte:</label>
-            <input type="text" name="cpf" id="cpf">
-            <p>Brasileiros ou Naturalizados devem informar o CPF. Estrangeiros devem informar o Passaporte (Formato: BR123456).</p>
-            <label for="verificar"><i class="fa-solid fa-asterisk fa-2xs"></i> Verificação:</label>
+            <div class="cpf">
+                <label for="cpf"><i class="fa-solid fa-asterisk fa-2xs"></i> CPF/Passaporte:</label>
+                <input type="text" name="cpf" id="cpf">
+                <p>Brasileiros ou Naturalizados devem informar o CPF. Estrangeiros devem informar o Passaporte (Formato: BR123456).</p>
+            </div>
+            <div class="verificacao">
+                <label class="veri" for="verificar"><i class="fa-solid fa-asterisk fa-2xs"></i> Verificação:</label>
+                <div class="box">
+                    <input type="checkbox" name="robo" id="robo">
+                    <p class="texrobo">Não sou um robô</p>
 
+                    <!-- <i class="fa-solid fa-rotate-right fa-3x blue"></i> -->
+                     <!-- <img src="/suapLogin/static/imagens/reCAPTCHA.png" alt=""> -->
+                    <p class="smalltext">reCAPTCHA</p>
+                    <p class="small2">Privacidade - Termos</p>
+                </div>
+            </div>
 
+            <!-- <label class="veri" for="verificar"><i class="fa-solid fa-asterisk fa-2xs"></i> Verificação:</label>   <div class="recaptcha-box">
+                <input type="checkbox" id="captcha-checkbox">
+                <div class="recaptcha-text">
+                  <p>Não sou um robô</p>
+                </div>
+                <i class="fas fa-shield-alt recaptcha-logo"></i>
+                <p class="small-text">reCAPTCHA <br>Privacy - Terms</p>
+              </div> -->
         </form>
+
+    
     </section>
 
     <footer>
