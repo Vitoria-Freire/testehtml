@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <style>
+        .conteiner {
+            display: grid;
+            grid-template-areas: 
+                'header header header header'
+                'secao secao secao nav'
+                'secao secao secao ad'
+                'footer footer footer footer'
+            ;
+            gap: 10px;
+        }
+        div div {
+            border: 1px solid red;
+        }
+        .header {
+            grid-area: header;
+        }
+        .footer {
+            grid-area: footer;
+        }
+        .secao {
+            grid-area: secao;
+        }
+        .nav {
+            grid-area: nav;
+        }
+        .ad {
+            grid-area: ad;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="conteiner">
+        <div class="header">1 header</div>
+        <div class="footer">2 footer</div>
+        <div class="ad">3 ad</div>
+        <div class="nav">4 nav</div>
+        <div class="secao">5 secao</div>
+
+    </div>
+    
+</body>
+</html>
